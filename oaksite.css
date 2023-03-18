@@ -1,0 +1,347 @@
+*{
+    margin: 1.1%;
+    padding: 0% 10px;
+    list-style: none;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: .1rem;
+}
+
+                         /* body start*/
+body{
+    background-color: rgb(48, 45, 45);
+    font-family: 'Raleway', sans-serif;
+
+}
+            
+                         /* body end*/
+
+                         /* header start*/
+
+.header{
+    margin-bottom: 4%;
+    margin-left: 2%;
+}
+.header img{
+    float: left;
+    margin-right: 10px;
+}
+.header ul{
+    list-style-type: none;
+    padding-top: 7vh;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.navbar ul li{
+    padding: 0%;
+}
+
+.header ul li{
+    display: inline;
+   font-size: 16px;
+   margin: 0 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+                         /* header end*/
+
+
+
+                         /* container start*/
+.container{
+    background-color: white;
+    color: rgb(36, 43, 25);
+    margin: 0%;
+}
+
+        /*  head + img (start) */ 
+
+.head h1{
+    font-size: 50px;
+    padding-top: 5%;
+}
+
+.img{
+    background:linear-gradient(rgba(8, 31, 12, 0.952), rgba(9, 24, 8, 0.938)), darkolivegreen;
+    margin: 3% 2%;
+}
+.img2{
+    padding: 3% 0%;
+}
+.img2 img{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+        /*  head + img (end) */
+
+.dice{
+    width: 28%;
+    float:left;
+}
+
+.dice .pie i{
+    font-size: 110px;
+    margin: 2vh 8vh 24vh 8vh;
+}
+.dice .pie2 i{
+    margin-bottom: 40vh;
+}
+
+                        /* container end */
+
+.box-x{
+    width: auto;
+    height: auto;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.dice{
+    width: 22%;
+    float: left;
+    margin-right: 10px;
+}
+
+.dice .pie i{
+    font-size: 110px;
+    margin: 0vh 10vh 0vh 10%;
+}
+.dice .pie2 i{
+    margin-top: 24vh;
+    margin-bottom: 18vh;
+    margin-left: 10%;
+    font-size: 110px;
+}
+
+#space{
+    padding-left: 10px;
+}
+       
+                        /* sub - container (start) */
+
+.sub-container{
+    margin: 1% 2%;
+}
+
+.h3 h2{
+    font-size: 35px;
+    margin: 0 0 25px 0;
+}
+
+.h3 p{
+    font-weight:500;
+    font-size: 18px;
+}
+
+.para h6{
+    font-size: 20px;
+}
+.para p{
+    font-weight:500;
+    font-size: 18px;
+}
+
+
+.bold h1{
+    font-size: 3em;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    margin: 4% 0;
+    padding: 30px 5px;
+    padding-bottom: 7%;
+}
+
+
+
+.h2 h3{
+    font-size: 30px;
+}
+
+.box-2 p{
+    font-weight:500;
+    font-size: 18px;
+}
+.box-2 h6{
+    font-size: 22px;
+}
+
+.box-x .box-2{
+    margin-left: 23%;
+}
+
+
+.h1-line h1{
+    font-size: 3em;
+    text-align: center;
+    margin: 4% 0;
+    padding: 30px 5px;
+}
+
+.box-z{
+    margin-left: 20%;
+    padding-left: 0%;
+    text-align: justify;
+}
+
+.h1-line h5{
+    font-size: 22px;
+
+}
+
+.h1-line p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+
+.box-z h2{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.box-z p{
+    margin-left: 0;
+    padding: 0;
+}
+
+.aside{
+    width: 22%;
+    float: left;
+    margin-right: 10px;
+}
+
+.aside .pie i{
+    font-size: 110px;
+    margin: 30px 10vh 0vh 10%;
+}
+.aside .pie2 i{
+    margin-top: 30vh;
+    margin-bottom: 18vh;
+    margin-left: 10%;
+    font-size: 110px;
+}
+
+
+.li-a h1{
+    font-size: 3em;
+    text-align: center;
+    margin: 4% 0;
+    padding: 30px 5px;
+}
+
+.li-a h5{
+    font-size: 22px;
+}
+.li-a p{
+    font-weight:500;
+    font-size: 18px;
+    padding-bottom: 5%;
+}
+
+#bottom{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+}
+                        /* sub - container (end) */
+
+
+
+
+
+.bttn h5{
+    padding: 0% 0 5px 0;
+    margin: 0%;
+}
+
+.bttn{
+    padding: 3% 0%;
+    margin: 0%;
+}
+
+.bttn p{
+    padding: 0%;
+    margin: 0%; 
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button{
+    padding: 0%;
+    float: left;
+    height: auto;
+    width: 70%;
+}
+
+.bttn .btn button{
+    width: 20vw;
+    border: none;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgba(4, 46, 4, 0.986);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 0 0 3%;
+}
+
+                           /* hi-footer start */
+.hi-footer{
+
+    margin: 0% 5% 0 4%;
+    padding: 10px 10px 20vh 0px;
+    border-top: 20px solid rgba(128, 128, 128, 0.404);
+}
+
+
+
+.hi-footer img:hover{
+    border-bottom: 25px solid rgba(0, 0, 0, 0.473);
+    transition: .2s;
+    cursor: pointer;
+}
+
+.hi-footer h3{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+                           /* hi-footer end*/
+
+                           /* footer start*/
+footer{
+    background-color: rgb(77, 122, 56);
+    color: white;
+    padding: 4%;
+    margin: 0%;
+    text-align: center;
+}
+footer p{
+    font-size: 12px;
+    line-height: 2;
+}
+footer a{
+  text-decoration: none;  
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+footer i{
+    font-size:40px;
+    padding: 0% 8px;
+    margin: 0%;
+}
+
+
+footer i:hover{
+    transition: all .55s ease;
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+                            /* footer end*/
